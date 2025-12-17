@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.1.4",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "PokeBlock-Launcher",
+    "preductname": "PokeBlock Launcher",
+    "version": "2.0.0",
+    "description": "Launcher pour PokeBlock, le serveur Minecraft Pokemon sur PC",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "Luuxis, Ekoo, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://pokeblock.fr/launcherpatch",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/dodo0410/PKBS2Launcher/refs/heads/master/src/assets/images/background/icon.ico"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://https://github.com/dodo0410/PKBS2Launcher.git"
     }
 }
