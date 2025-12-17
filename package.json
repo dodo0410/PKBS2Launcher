@@ -1,7 +1,7 @@
 {
-    "name": "PokeBlock-Launcher",
+    "name": "PokeBlockLauncher",
     "preductname": "PokeBlock Launcher",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Launcher pour PokeBlock, le serveur Minecraft Pokemon sur PC",
     "main": "src/app.js",
     "author": {
